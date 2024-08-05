@@ -1,0 +1,9 @@
+# https://humanstxt.org/
+
+## Author
+Hi, I'm Yves-Emmanuel Jutard, Human, Earthling, Software Engineer.
+
+If you need to get in touch: mailto:ye.jutard@gmail.com.
+
+## Credits
+(TODO one day)
