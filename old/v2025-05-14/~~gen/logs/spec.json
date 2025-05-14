@@ -1,0 +1,42 @@
+{
+	"lang": "en",
+	"description": "Yves-Emmanuel Jutard’s landing page",
+	"author": {
+		"name": "Yves-Emmanuel Jutard",
+		"intro": "Human, Earthling, Software Engineer",
+		"since‿y": 1981,
+		"email": "ye.jutard@gmail.com",
+		"urlⵧcanonical": "https://yves-emmanuel.jutard.com/",
+		"urlsⵧsocial": [
+			{
+				"network": "linkedin",
+				"handle": "yves-jutard",
+				"url": "https://www.linkedin.com/in/yves-jutard/"
+			}
+		]
+	},
+	"since‿y": 1981,
+	"urlⵧcanonical": "https://yves-emmanuel.jutard.com/",
+	"contact": "https://github.com/jutard-dot-com/jutard-dot-com.github.io/issues",
+	"title": "Yves-Emmanuel Jutard",
+	"icon": {
+		"emoji": "👨‍💻"
+	},
+	"keywords": ["engineer", "software", "fullstack", "developer"],
+	"content": {
+		"html": [
+			"\n<header>\n\t<nav>\n\t\t<ul>\n\t\t\t<li><a href=\"https://www.jutard.com\">⇱ jutard.com home</a></li>\n\t\t</ul>\n\t</nav>\n</header>\n<main class=\"o⋄text-alignꘌcenter\">\n\t<h1>Yves-Emmanuel Jutard</h1>\n\t<h2><img src=\"https://www.gravatar.com/avatar/1bd795a4b64fe6263eb7eec45fd120745490e4a62f54033a304b910d605e6f1d?s=256\" style=\"display: inline-block; border-radius: 50%\" width=\"150\"></h2>\n\t<h3>Human, Earthling, Software Engineer</h3>\n\t<nav is=\"offirmoⳆsocial-links\" style=\"font-size: larger\">\n\t\t<ol>\n\t\t\t<li><a is=\"offirmoⳆsocial-link\" target=\"_blank\" href=\"mailto:ye(dot)jutard(at)gmail.com\">email</a></li>\n\t\t\t<li><a is=\"offirmoⳆsocial-link\" target=\"_blank\" href=\"https://www.linkedin.com/in/yves-jutard/\">LinkedIn</a></li>\n\t\t</ol>\n\t</nav>\n</main>\n"
+		],
+		"html__root__attributes": [],
+		"css": [":root {\n\t\t\t\t--o⋄color⁚fg--link--visited: #74112F;\n\t\t\t}"],
+		"js": ["import 'npm:@offirmo-private/wc--social'"]
+	},
+	"features": ["normalize-url-trailing-slash", "cssⳇframework--offirmo"],
+	"colorⵧbackground": "#0c0c1e",
+	"colorⵧforeground": "#fdf4e3",
+	"preset": "landing",
+	"host": "github-pages",
+	"env": "prod",
+	"isꓽpublic": true,
+	"isꓽdebug": false
+}

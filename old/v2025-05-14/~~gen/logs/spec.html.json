@@ -1,0 +1,42 @@
+{
+	"content": {
+		"html": [
+			"<header>\n\t<nav>\n\t\t<ul>\n\t\t\t<li><a href=\"https://www.jutard.com\">⇱ jutard.com home</a></li>\n\t\t</ul>\n\t</nav>\n</header>\n<main class=\"o⋄text-alignꘌcenter\">\n\t<h1>Yves-Emmanuel Jutard</h1>\n\t<h2><img src=\"https://www.gravatar.com/avatar/1bd795a4b64fe6263eb7eec45fd120745490e4a62f54033a304b910d605e6f1d?s=256\" style=\"display: inline-block; border-radius: 50%\" width=\"150\"></h2>\n\t<h3>Human, Earthling, Software Engineer</h3>\n\t<nav is=\"offirmoⳆsocial-links\" style=\"font-size: larger\">\n\t\t<ol>\n\t\t\t<li><a is=\"offirmoⳆsocial-link\" target=\"_blank\" href=\"mailto:ye(dot)jutard(at)gmail.com\">email</a></li>\n\t\t\t<li><a is=\"offirmoⳆsocial-link\" target=\"_blank\" href=\"https://www.linkedin.com/in/yves-jutard/\">LinkedIn</a></li>\n\t\t</ol>\n\t</nav>\n</main>"
+		],
+		"html__root__attributes": ["data-o-theme=\"dark\""],
+		"css": [":root {\n\t\t\t\t--o⋄color⁚fg--link--visited: #74112F;\n\t\t\t}"],
+		"js": ["import 'npm:@offirmo-private/wc--social'"],
+		"title": "Yves-Emmanuel Jutard",
+		"jsⵧcritical": [],
+		"cssⵧtop__layers": [],
+		"cssⵧtop__namespaces": {},
+		"cssⵧcritical": [
+			"/* critical minimal design system */\n:root {\n\t/* FG+BG colors are the basics of identity */\n\t--o⋄color⁚bg--main: #0c0c1e;\n\t--o⋄color⁚fg--main: #fdf4e3;\n\t/* https://systemfontstack.com/ simplified */\n\t--o⋄font-family--system--sans: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Arial, sans-serif;\n\n\tmargin: 0;\n\tpadding: 0;\n\n\tcolor: var(--o⋄color⁚fg--main);\n\tbackground-color: var(--o⋄color⁚bg--main);\n\tfont-family: var(--o⋄font-family--system--sans);\n\n\t\n"
+		]
+	},
+	"links": {
+		"icon": "data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>👨‍💻</text></svg>"
+	},
+	"metas": {
+		"charset": "utf-8",
+		"document": {
+			"viewport": {
+				"width": "device-width",
+				"initial-scale": 1,
+				"viewport-fit": "contain"
+			},
+			"format-detection": "telephone=no"
+		},
+		"pragmas": {
+			"content-security-policy": {},
+			"content-type": "text/html;charset=utf-8",
+			"content-language": "en",
+			"generator": "@offirmo/generator--website-entry-points",
+			"keywords": [],
+			"theme-color": "#0c0c1e"
+		},
+		"properties": {},
+		"itemprops": {}
+	},
+	"features": ["normalize-url-trailing-slash", "cssⳇframework--offirmo", "cssⳇbox-layout--natural"]
+}
