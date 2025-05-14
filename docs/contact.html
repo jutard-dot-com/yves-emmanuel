@@ -50,6 +50,8 @@
 		<script>
 			/////// critical JS ///////
 			;(function normalize_trailing_slash() {
+				if (location.redirect_pending) return
+
 				/* IF the current path doesn't end with a trailing slash, this may be an issue
 				 * ex if we're located by our parent folder (implicit file, a lot of servers automatically do that)
 				 *    foo/bar/index.html   served as  /foo/bar (no trailing slash)
@@ -83,6 +85,8 @@
 				// Redirect to the version with slash
 				const locationᐧpathnameⵧfixed = location.pathname + '/'
 
+				console.log('normalize_trailing_slash() REDIRECTING…')
+				location.redirect_pending = true
 				location.replace(location.origin + locationᐧpathnameⵧfixed + location.search + location.hash)
 			})()
 		</script>
